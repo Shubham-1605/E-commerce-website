@@ -56,6 +56,18 @@ button.normal{
     transition: 0.2s;
 }
 
+button.white{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid;
+    outline: none;
+    transition: 0.2s;
+}
+
 .body{
     width: 100%;
 }
@@ -312,4 +324,204 @@ button.normal{
 #banner button:hover{
     background-color:#088178;
     color: #fff;
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banner/b17.jpg);
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2{
+    background-image: url(img/banner/b10.jpg);
+}
+
+#sm-banner h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    color: #ffff;
+    font-size: 36px;
+    font-weight:550;
+}
+
+#sm-banner span{
+    color: #fff;
+    font-size: 18px;
+    font-weight:500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button{
+    background: #088178;
+    border: 1px solid #088178;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banner/b7.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#banner3 .banner-box2{
+    background-image: url(img/banner/b4.jpg);
+}
+
+#banner3 .banner-box3{
+    background-image: url(img/banner/b18.jpg);
+}
+
+#banner3 h2{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+#banner3 h3{
+    color: #73ff00;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 75px;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span{
+    color:#ff1f1f;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 4.0em;
+    padding: 0 1.150rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.col {
+    flex: 1 1 220px;
+    /* min-width: 100%; */
+    
+}
+
+.col h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.col a, .col p {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.col a:hover {
+    text-decoration: underline;
+}
+
+.follow .icon i {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #555;
+    cursor: pointer;
+}
+
+.follow .icon i:hover {
+    color: #007bff;
+}
+
+.install .row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.install img {
+    height: 35px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 13px;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
 }
