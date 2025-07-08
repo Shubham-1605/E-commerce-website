@@ -539,7 +539,7 @@ button.white {
 
 
 
-/* media query */
+/* media query for tablet*/
 @media (max-width : 768px) {
 
     .section-p1 {
@@ -636,16 +636,60 @@ button.white {
 }
 
 /* media query for small screen */
-@media (max-width : 477px){
-    #header {
-    padding: 10px 10px;
-}
+@media (max-width : 477px) {
+    .section-p1 {
+        padding: 20px;
+    }
 
-#hero {
-    
-    padding: 0 20px;
-    background-position: 55%;
-}
+    #header {
+        padding: 10px 10px;
+    }
+
+    #hero {
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    #feature {
+        justify-content: space-between;
+    }
+
+    #feature .feature_box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner {
+        height: 40vh;
+    }
+
+    #sm-banner {
+        padding: 0 20px;
+    }
+
+    #sm-banner .banner-box {
+        height: 40vh;
+    }
+
+    #banner3 {
+        padding: 0 20px;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
 
 
 }
