@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
+/* universal style */
 * {
     margin: 0;
     padding: 0;
@@ -134,6 +135,7 @@ button.white {
     display: none;
 }
 
+/* hero section */
 #hero {
     background-image: url("img/hero4.png");
     height: 90vh;
@@ -476,11 +478,14 @@ button.white {
     border-bottom-left-radius: 0;
 }
 
+/* footer section */
+
 .footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
+    padding-left: 30px;
 }
 
 .col {
@@ -534,6 +539,109 @@ button.white {
     font-size: 13px;
     border-top: 1px solid #ccc;
     margin-top: 10px;
+}
+
+
+/* shop page */
+#page-header {
+    background-image: url("img/banner/b1.jpg");
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+    color: white;
+}
+
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* single product */
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.small-img {
+    width: 22%;
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-detais {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-detais h6 {
+    font-size: 18px;
+}
+
+#prodetails .single-pro-detais h4 {
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-detais h2 {
+    font-size: 26px;
+}
+
+#prodetails .single-pro-detais select {
+    display: block;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#prodetails .single-pro-detais input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#prodetails .single-pro-detais input:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-detais button {
+    background-color: #088178;
+    color: #fff;
+}
+
+#prodetails .single-pro-detais span {
+    line-height: 25px;
 }
 
 
@@ -691,5 +799,22 @@ button.white {
         width: 100%;
     }
 
+    /* single product */
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-pro-detais {
+        width: 100%;
+
+    }
+
 
 }
+
