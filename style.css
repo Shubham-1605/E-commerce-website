@@ -87,6 +87,12 @@ button.white {
     left: 0;
 }
 
+/* brand logo */
+#header .logo {
+    width: 230px;
+    height: auto;
+}
+
 
 #navbar {
     display: flex;
@@ -489,10 +495,14 @@ button.white {
     margin-top: 80px;
 }
 
+.footer-container .col img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 .col {
     flex: 1 1 220px;
-    /* min-width: 100%; */
-
 }
 
 .col h4 {
