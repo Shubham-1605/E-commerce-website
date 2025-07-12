@@ -10,8 +10,8 @@
             "description": "Test Transaction",
             "image": "img/logo1.png",
             "handler": function (response){
-                alert("Payment successful! Payment ID: " + response.razorpay_payment_id);
-                // You can redirect to a thank-you page here
+                window.location.href = "thankyou.html";
+                
             },
             "prefill": {
                 "name": "Customer Name",
