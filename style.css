@@ -132,6 +132,19 @@ button.white {
     left: 20px;
 }
 
+#header #navbar button{
+    background: #60e9e0;
+    outline: none;
+    border-radius: 30px;
+}
+
+#header #navbar button a{
+    color: #1a1a1a;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
 #mobile {
     display: none;
     align-items: center;
