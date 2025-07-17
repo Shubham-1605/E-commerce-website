@@ -78,7 +78,7 @@ button.white {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 0px 20px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
@@ -97,13 +97,52 @@ button.white {
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
+
+/* search container */
+#header .search-container {
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex: 1;
+    /* background-color: #ff1f1f; */
+    width: 1000px;
+}
+
+#header .search-container input {
+    width: 85%;
+    height: 45px;
+    padding: 0 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+}
+
+#header .search-container button {
+    width: 50px;
+    height: 43px;
+    border: none;
+    background-color: #a0a2a2;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px;
+}
+
 
 /* removed bullet point and added padding */
 #navbar li {
     list-style: none;
-    padding: 0 20px;
+    padding: 0 15px;
     position: relative;
 }
 
@@ -133,7 +172,7 @@ button.white {
 }
 
 #header #navbar button{
-    background: #60e9e0;
+    background: #90eee7;
     outline: none;
     border-radius: 30px;
 }
@@ -143,6 +182,9 @@ button.white {
     font-weight: 600;
     text-decoration: none;
 }
+
+/* search product */
+
 
 
 #mobile {
