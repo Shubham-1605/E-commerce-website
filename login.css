@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #ff0000, #0000ff);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: #bfc2c0;
+    padding: 30px;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+.signup-container {
+    background: #bfc2c0;
+    padding: 30px;
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+.login-container h2,
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0c0c0c;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #19ca22;
+}
+
+.toggle-link {
+    
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.explore{
+    padding: 5px;
+    display: flex;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.explore i{
+    padding: 5px;
+}
+
+.toggle-link a {
+    color: #f700ff;
+    text-decoration: underline;
+}
+.toggle-link a:hover {
+    font-size:18px ;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 25px;
+    padding: 10px;
+}
+.social-links a {
+    color: rgb(255, 5, 5);
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: 6px;
+    border: 1px solid transparent;
+    
+}
+.social-links a:hover {
+    color: rgb(167, 19, 19);
+    transition: 0.3s;
+    border: 1px solid red;
+}

@@ -184,9 +184,6 @@ button.white {
 }
 
 /* search product */
-
-
-
 #mobile {
     display: none;
     align-items: center;
@@ -197,43 +194,49 @@ button.white {
 }
 
 /* hero section */
-#hero {
-    background-image: url("img/hero4.png");
+main {
+    width:auto;
     height: 90vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 25% right 0;
-    padding: 0 80px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.7s ease-in-out;
+}
+.slide {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-#hero h4 {
-    padding-bottom: 15px;
-}
-
-#hero h1 {
-    color: #088178;
-}
-
-/* top right bottom left */
-#hero p {
-    padding: 15px 0px 35px 0px;
-}
-
-#hero button {
-    background-image: url(img/button.png);
-    background-color: transparent;
-    color: #088178;
-    border: 0;
-    font-weight: 700;
-    font-size: 20px;
-    padding: 14px 80px 14px 65px;
-    background-repeat: no-repeat;
+/* Arrow button styles for hero section */
+.arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
     cursor: pointer;
+    z-index: 10;
+    transition: background 0.2s;
+    background-color: transparent;
+    border: none;
+    font-size: 27px;
 }
+.arrow:hover {
+    background-color: transparent;
+    font-size:32px;
+}
+#prevBtn {
+    left: 2vw;
+}
+#nextBtn {
+    right: 2vw;
+}
+
 
 #feature {
     display: flex;
